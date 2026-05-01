@@ -1,16 +1,37 @@
-# React + Vite
+# 🎓 AI Professor
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered interactive learning assistant that helps you **learn, explain, and test your understanding** like a real university experience.
 
-Currently, two official plugins are available:
+Built as a full-stack project using **React + Node.js + Hugging Face APIs**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 📘 1. Teach Mode
+- Enter any topic
+- Get a **clear, structured explanation**
+- AI behaves like a professor (simple + conceptual)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🧠 2. Teach-Back Mode (Feynman Technique)
+- You explain the topic in your own words
+- AI evaluates your answer and gives:
+  - ✅ What you got right  
+  - ❌ What’s missing  
+  - 🔧 How to improve  
+
+---
+
+### 🎤 3. Mock Viva Mode
+- Simulates a **real oral exam**
+- AI asks questions based on the topic
+- Evaluates your answers and:
+  - Gives feedback  
+  - Asks follow-up questions  
+- Continuous Q&A loop for deeper understanding
+
+---
+
+## 🧱 Architecture
